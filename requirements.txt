@@ -1,5 +1,7 @@
 bokeh
 sklearn
 streamlit
-tensorflow
+keras
+seaborn
+pandas
 
