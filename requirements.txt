@@ -5,3 +5,5 @@ sklearn
 xgboost
 streamlit
 seaborn
+keras
+tensorflow
