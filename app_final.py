@@ -43,7 +43,7 @@ from bokeh.palettes import Set3
 from PIL import Image,ImageFilter,ImageEnhance
 
 #Keras specifi must intall tensorflow next time
-import keras
+#import keras
 import tensorflow as tf
 from tensorflow.keras.models import Sequential
 from tensorflow.keras.layers import Dense
