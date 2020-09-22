@@ -3,5 +3,6 @@ sklearn
 streamlit
 seaborn
 pandas
+xgboost
 
 
