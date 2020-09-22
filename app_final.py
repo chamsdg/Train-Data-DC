@@ -149,6 +149,7 @@ class Predictor:
                 #st.write('Confusion matrix: ', cm_head)
                 #st.title("Matrix Confusion")
                 st.subheader('Matrix of Confusion')
+                showPyplotGlobalUse = False
                 st.pyplot()
     
         
@@ -161,6 +162,7 @@ class Predictor:
                 cm_naive =confusion_matrix(self.y_test,self.predictions)
                 cm_headmap = sns.heatmap(cm_naive, annot=True,fmt='3.0f', cmap="summer")
                 st.subheader('Matrix of Confusion')#cmap="YlGnBu"
+                showPyplotGlobalUse = False
                 st.pyplot()
                 
             
@@ -174,6 +176,7 @@ class Predictor:
                 cm_mpl =confusion_matrix(self.y_test,self.predictions)
                 cm_headmap = sns.heatmap(cm_mpl, annot=True,fmt='3.0f', cmap="summer")
                 st.subheader('Matrix of Confusion')
+                showPyplotGlobalUse = False
                 st.pyplot()
                 
                 
@@ -186,6 +189,7 @@ class Predictor:
                 cm_xg = confusion_matrix(self.y_test,self.predictions)
                 cm_headmap = sns.heatmap(cm_xg, annot=True,fmt='3.0f', cmap="YlGnBu")
                 st.subheader('Matrix of Confusion')
+                showPyplotGlobalUse = False
                 st.pyplot()
 
            
