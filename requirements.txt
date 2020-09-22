@@ -2,8 +2,7 @@ pandas
 numpy
 bokeh
 sklearn
-xgboost
 streamlit
 seaborn
 keras
-tensorflow
+
