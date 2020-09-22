@@ -1,8 +1,8 @@
 pandas
-numpy
 bokeh
 sklearn
 streamlit
 seaborn
 keras
+tensorflow
 
