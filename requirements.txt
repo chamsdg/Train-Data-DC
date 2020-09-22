@@ -3,6 +3,5 @@ bokeh
 sklearn
 streamlit
 seaborn
-keras
 tensorflow
 
