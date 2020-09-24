@@ -278,6 +278,9 @@ if __name__ == '__main__':
         controller.data = controller.file_selector()
         from PIL import Image
         image = Image.open('logo_train-data.png')
+        url = 'https://www.linkedin.com/in/chamsedineaidara/'
+        if st.button('Account Linkdin'):
+            webbrowser.open_new_tab(url)
         if controller.data is not None:
             split_data = st.sidebar.slider('Randomly reduce data size %', 1, 100, 10 )
             train_test = st.sidebar.slider('Train-test split %', 1, 99, 66 )
