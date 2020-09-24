@@ -23,6 +23,7 @@ from sklearn.preprocessing import PolynomialFeatures
 from xgboost import XGBRegressor
 from sklearn import metrics
 from xgboost import XGBClassifier
+import webbrowser
 from sklearn.ensemble import RandomForestRegressor
 from sklearn.metrics import mean_squared_error, accuracy_score
 from sklearn.preprocessing import MinMaxScaler
